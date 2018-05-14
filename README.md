@@ -22,9 +22,9 @@ You can reassign variables that you create with the `let` keyword.
 Unset variables store the primitive data type `undefined`.
 Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable.
 
-The `+` operator is used to interpolate (combine) multiple strings.
++ The `+` operator is used to interpolate (combine) multiple strings.
 
-In JavaScript ES6, backticks and `${}` are used to interpolate values into a string.
++ In JavaScript ES6, backticks and `${}` are used to interpolate values into a string.
 
 ## Control Flow ##
 
@@ -41,6 +41,29 @@ In JavaScript ES6, backticks and `${}` are used to interpolate values into a str
 + An exclamation mark (`!`) *switches* the truthiness / falsiness of the value of a variable.
 + One equals symbol (`=`) is used to assign a value to a variable.
 + Three equals symbols (`===`) are used to check if two variables are equal to each other.
+
+**Switch Statement:**
+
+```javascript
+var day = 'monday'
+switch (day) {
+  case 'monday':
+    //Statements executed when the
+    //day is equal to monday
+    console.log('code review')
+    break;
+  case 'tuesday':
+    //Statements executed when the
+    //day is equal to tuesday
+    console.log('yoga')
+    break;
+  default:
+    //Statements executed when none of
+    //the values match the value of the expression
+    console.log('write code')
+    break;
+}
+```
 
 ## Functions ##
 
