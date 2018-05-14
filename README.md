@@ -106,7 +106,7 @@ var plusTwo = (num) => num + 2
 ## Loops ##
 
 + `for` loops allow us to repeat a block of code a **known amount of times**.
-+ We can use a *for loop inside another for loop to compare two lists*.
++ We can use a *for loop inside another for loop to compare two lists*.  
 *Basic for loop syntax:*
 ```javascript
 for (i = 0; i < 5; i++) {
@@ -114,7 +114,7 @@ for (i = 0; i < 5; i++) {
 }
 ```
 + `while` loops are for looping over a code block an **unknown amount of times**.
-+ *Infinite loops occur when stop conditions are never met.*
++ *Infinite loops occur when stop conditions are never met.*  
 *Basic while loop syntax:*
 ```javascript
 var i = 0
