@@ -1,3 +1,8 @@
+# JavaScript Study Guide #
+
+This information was pulled from [Codecademy's](https://www.codecademy.com/learn/introduction-to-javascript) introduction to JavaScript course and is intended as a recap/ summary of some of the basic JavaScript elements for students switching languages or refreshing their memory.
+Please do try the [free online course](https://www.codecademy.com/learn/introduction-to-javascript) as it is very helpful, and always refer to the [Mozilla Developer Network](https://developer.mozilla.org/bm/docs/Web/JavaScript) for more information.
+
 ## Types and Operators ##
 
 Four essential data types in JavaScript include strings, numbers, booleans, and null.
