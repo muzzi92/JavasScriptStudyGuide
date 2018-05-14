@@ -42,7 +42,7 @@ Mathematical assignment operators make it easy to calculate a new value and assi
 + One equals symbol (`=`) is used to assign a value to a variable.
 + Three equals symbols (`===`) are used to check if two variables are equal to each other.
 
-**Switch Statement:**
+*Switch Statement:*
 
 ```javascript
 var day = 'monday'
@@ -58,8 +58,8 @@ switch (day) {
     console.log('yoga')
     break;
   default:
-    //Statements executed when none of
-    //the values match the value of the expression
+    //Statements executed when
+    //day is equal to anything else
     console.log('write code')
     break;
 }
@@ -72,6 +72,17 @@ switch (day) {
 + We can define parameters to be used when calling the function.
 + When calling a function, we can pass in arguments, which will set the function's parameters.
 + We can use `return` to return the result of a function which allows us to call functions anywhere, even inside other functions.
+
+*Regular function syntax:*
+```
+function plusTwo(num) {
+   return num + 2;
+ }
+```
+*Arrow syntax:*
+```
+var plusTwo = (num) => num + 2
+```
 
 ## Scope ##
 
