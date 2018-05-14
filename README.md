@@ -74,13 +74,13 @@ switch (day) {
 + We can use `return` to return the result of a function which allows us to call functions anywhere, even inside other functions.
 
 *Regular function syntax:*
-```
+```javascript
 function plusTwo(num) {
    return num + 2;
  }
 ```
 *Arrow syntax:*
-```
+```javascript
 var plusTwo = (num) => num + 2
 ```
 
@@ -107,8 +107,22 @@ var plusTwo = (num) => num + 2
 
 + `for` loops allow us to repeat a block of code a **known amount of times**.
 + We can use a *for loop inside another for loop to compare two lists*.
+*Basic for loop syntax:*
+```javascript
+for (i = 0; i < 5; i++) {
+    console.log("Let's print the numbers 0 to 4: ${i}");
+}
+```
 + `while` loops are for looping over a code block an **unknown amount of times**.
 + *Infinite loops occur when stop conditions are never met.*
+*Basic while loop syntax:*
+```javascript
+var i = 0
+while (i < 5) {
+    text += "The number is " + i;
+    i++;
+}
+```
 
 ## Iterators ##
 
